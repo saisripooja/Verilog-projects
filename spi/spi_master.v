@@ -6,7 +6,7 @@ module spi_master (
     output reg cs,  
     output reg mosi, 
     output reg sclk, 
-    output reg [7:0] master_out,  // Changed name to avoid conflicts
+    output reg [7:0] master_out, 
     input wire miso,
     output reg done    
 );
